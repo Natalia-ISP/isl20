@@ -14,3 +14,11 @@ title.style.padding = "10px";
 text.style.fontSize = "18px";
 text.style.fontSize = "italic";
 text.style.color = "darkgreen";
+
+const btn = document.getElementById("btn");
+
+btn.addEventListener("click", () => {
+    alert("кнопка нажата!");
+    btn.style.backgroundColor = "#4CAF50";
+    btn.style.color = "white";
+});
